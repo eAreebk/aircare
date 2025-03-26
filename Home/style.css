@@ -174,7 +174,8 @@ body{
         padding: 10px;
         
         text-align: center !important;
-        color: black;
+        color: black !important;
+         font-weight: bold !important;
     }
 
 
