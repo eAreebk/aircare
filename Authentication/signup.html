@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup . Air Care</title>
+    <link rel="shortcut icon" href="../Home/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Home/style.css">
+</head>
+<body>
+
+        <nav class="navbarp">
+            <div class="logo-container">
+                <img src="../Home/Assets/logo.png" alt="Logo">
+                <h1>Air Care</h1>
+            </div>
+        
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="../index.html">Home</a>
+            </div>
+        </nav>
+
+       
+
+      <div class="form-container">
+        <form action="">
+            <h1 id="">Air Care</h1> <br><br><br>
+
+            <div class="input-group">
+            <label for=""email>Enter your first name</label> 
+            <input type="text" id="fname" name="fname"  placeholder="Muhammad"> <br><br>
+
+            <label for=""email>Enter your last name</label> 
+            <input type="text" id="lname" name="lname"  placeholder="Areeb Khan"> <br><br>
+
+            <label for=""orgzName>Enter your organization name (Optional)</label> 
+            <input type="text" id="orgzName" name="orgzName"  placeholder="Bahria University"> <br><br>
+   
+            <label for=""email1>Create your email address</label> 
+            <input type="email" id="email1" name="email1" value="@email.com" placeholder="Email"> <br><br>
+ 
+            <label for="pswd1">Create your strong password</label>
+            <input type="password" id="pswd1" name="pswd1"  placeholder="Good Password: Abc.12"> <br><br>
+
+            <label for=""email>Create your easy four-digit recovery PIN</label> 
+            <input type="number" id="email1" name="email1"  placeholder="2255"> <br><br>
+            </div>
+ 
+            <button type="submit" onclick="submitSignupForm()">Sign up</button> <br>
+
+        </form> <br><br>
+
+        <div class="form-part2">
+            <p>Already have an account?</p>
+            <a href="./login.html">Log in</a>
+        </div>
+
+      </div>
+    
+
+
+
+    <script>
+
+            function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "flex") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "flex";
+            }
+                }
+
+
+                function submitSignupForm() {
+    window.location.href = "./login.html";
+                }
+
+  </script>
+
+
+
+
+
+    
+</body>
+</html>

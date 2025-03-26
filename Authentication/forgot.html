@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password . Air Care</title>
+    <link rel="shortcut icon" href="../Home/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Home/style.css">
+</head>
+<body>
+
+        <nav class="navbarp">
+            <div class="logo-container">
+                <img src="../Home/Assets/logo.png" alt="Logo">
+                <h1>Air Care</h1>
+            </div>
+        
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="../index.html">Home</a>
+            </div>
+        </nav>
+    
+
+      <div class="form-container">
+        <form action="">
+            <h1 id="">Air Care</h1> <br><br><br>
+
+            <div class="input-group">
+            <label for=""email2>Please enter your email</label> 
+            <input type="email" id="email2" name="email2" value="@email.com" placeholder="Email"> <br><br>
+ 
+            <label for="pswd2">Please enter your four-digit recovery PIN</label>
+            <input type="number" id="pswd2" name="pswd2"  placeholder="...."> <br><br>
+            </div>
+ 
+            <button type="submit" onclick="submitForgotForm()">Verify</button> <br>
+
+        </form> <br><br>
+
+        <div class="form-part2">
+            <p>Remember Password</p>
+            <a href="./login.html">Log in</a>
+        </div>
+
+      </div>
+
+
+
+        <script>
+            
+            function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "flex") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "flex";
+            }
+                }
+
+
+                function submitForgotForm() {
+    window.location.href = "./changepswd.html";
+                }
+
+  </script>
+
+
+
+
+
+    
+</body>
+</html>
