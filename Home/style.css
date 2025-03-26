@@ -408,6 +408,12 @@ body{
         border-radius: 10%;
     }
 
+    
+    .reading{
+        color: #000 !important;
+        font-weight: bold !important;
+    }
+
 
     #power-btn {
         min-height: 20vh;
