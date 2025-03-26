@@ -396,7 +396,7 @@ body{
 
     .items>h3{
         font-size: 18px !important;
-        font-weight: 70 !important;
+        font-weight: 70 ;
     }
 
     .items>p{
